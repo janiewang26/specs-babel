@@ -1,0 +1,877 @@
+[
+    {
+        "content": "Node objects",
+        "slug": "node-objects",
+        "lvl": 1,
+        "i": 0,
+        "seen": 0
+    },
+    {
+        "content": "Changes",
+        "slug": "changes",
+        "lvl": 1,
+        "i": 1,
+        "seen": 0
+    },
+    {
+        "content": "@babel/parser (Babylon) v7",
+        "slug": "babelparser-babylon-v7",
+        "lvl": 3,
+        "i": 2,
+        "seen": 0
+    },
+    {
+        "content": "Identifier",
+        "slug": "identifier",
+        "lvl": 1,
+        "i": 3,
+        "seen": 0
+    },
+    {
+        "content": "PrivateName",
+        "slug": "privatename",
+        "lvl": 1,
+        "i": 4,
+        "seen": 0
+    },
+    {
+        "content": "Literals",
+        "slug": "literals",
+        "lvl": 1,
+        "i": 5,
+        "seen": 0
+    },
+    {
+        "content": "RegExpLiteral",
+        "slug": "regexpliteral",
+        "lvl": 2,
+        "i": 6,
+        "seen": 0
+    },
+    {
+        "content": "NullLiteral",
+        "slug": "nullliteral",
+        "lvl": 2,
+        "i": 7,
+        "seen": 0
+    },
+    {
+        "content": "StringLiteral",
+        "slug": "stringliteral",
+        "lvl": 2,
+        "i": 8,
+        "seen": 0
+    },
+    {
+        "content": "BooleanLiteral",
+        "slug": "booleanliteral",
+        "lvl": 2,
+        "i": 9,
+        "seen": 0
+    },
+    {
+        "content": "NumericLiteral",
+        "slug": "numericliteral",
+        "lvl": 2,
+        "i": 10,
+        "seen": 0
+    },
+    {
+        "content": "BigIntLiteral",
+        "slug": "bigintliteral",
+        "lvl": 2,
+        "i": 11,
+        "seen": 0
+    },
+    {
+        "content": "Programs",
+        "slug": "programs",
+        "lvl": 1,
+        "i": 12,
+        "seen": 0
+    },
+    {
+        "content": "Functions",
+        "slug": "functions",
+        "lvl": 1,
+        "i": 13,
+        "seen": 0
+    },
+    {
+        "content": "Statements",
+        "slug": "statements",
+        "lvl": 1,
+        "i": 14,
+        "seen": 0
+    },
+    {
+        "content": "ExpressionStatement",
+        "slug": "expressionstatement",
+        "lvl": 2,
+        "i": 15,
+        "seen": 0
+    },
+    {
+        "content": "BlockStatement",
+        "slug": "blockstatement",
+        "lvl": 2,
+        "i": 16,
+        "seen": 0
+    },
+    {
+        "content": "EmptyStatement",
+        "slug": "emptystatement",
+        "lvl": 2,
+        "i": 17,
+        "seen": 0
+    },
+    {
+        "content": "DebuggerStatement",
+        "slug": "debuggerstatement",
+        "lvl": 2,
+        "i": 18,
+        "seen": 0
+    },
+    {
+        "content": "WithStatement",
+        "slug": "withstatement",
+        "lvl": 2,
+        "i": 19,
+        "seen": 0
+    },
+    {
+        "content": "Control flow",
+        "slug": "control-flow",
+        "lvl": 2,
+        "i": 20,
+        "seen": 0
+    },
+    {
+        "content": "ReturnStatement",
+        "slug": "returnstatement",
+        "lvl": 3,
+        "i": 21,
+        "seen": 0
+    },
+    {
+        "content": "LabeledStatement",
+        "slug": "labeledstatement",
+        "lvl": 3,
+        "i": 22,
+        "seen": 0
+    },
+    {
+        "content": "BreakStatement",
+        "slug": "breakstatement",
+        "lvl": 3,
+        "i": 23,
+        "seen": 0
+    },
+    {
+        "content": "ContinueStatement",
+        "slug": "continuestatement",
+        "lvl": 3,
+        "i": 24,
+        "seen": 0
+    },
+    {
+        "content": "Choice",
+        "slug": "choice",
+        "lvl": 2,
+        "i": 25,
+        "seen": 0
+    },
+    {
+        "content": "IfStatement",
+        "slug": "ifstatement",
+        "lvl": 3,
+        "i": 26,
+        "seen": 0
+    },
+    {
+        "content": "SwitchStatement",
+        "slug": "switchstatement",
+        "lvl": 3,
+        "i": 27,
+        "seen": 0
+    },
+    {
+        "content": "SwitchCase",
+        "slug": "switchcase",
+        "lvl": 4,
+        "i": 28,
+        "seen": 0
+    },
+    {
+        "content": "Exceptions",
+        "slug": "exceptions",
+        "lvl": 2,
+        "i": 29,
+        "seen": 0
+    },
+    {
+        "content": "ThrowStatement",
+        "slug": "throwstatement",
+        "lvl": 3,
+        "i": 30,
+        "seen": 0
+    },
+    {
+        "content": "TryStatement",
+        "slug": "trystatement",
+        "lvl": 3,
+        "i": 31,
+        "seen": 0
+    },
+    {
+        "content": "CatchClause",
+        "slug": "catchclause",
+        "lvl": 4,
+        "i": 32,
+        "seen": 0
+    },
+    {
+        "content": "Loops",
+        "slug": "loops",
+        "lvl": 2,
+        "i": 33,
+        "seen": 0
+    },
+    {
+        "content": "WhileStatement",
+        "slug": "whilestatement",
+        "lvl": 3,
+        "i": 34,
+        "seen": 0
+    },
+    {
+        "content": "DoWhileStatement",
+        "slug": "dowhilestatement",
+        "lvl": 3,
+        "i": 35,
+        "seen": 0
+    },
+    {
+        "content": "ForStatement",
+        "slug": "forstatement",
+        "lvl": 3,
+        "i": 36,
+        "seen": 0
+    },
+    {
+        "content": "ForInStatement",
+        "slug": "forinstatement",
+        "lvl": 3,
+        "i": 37,
+        "seen": 0
+    },
+    {
+        "content": "ForOfStatement",
+        "slug": "forofstatement",
+        "lvl": 2,
+        "i": 38,
+        "seen": 0
+    },
+    {
+        "content": "Declarations",
+        "slug": "declarations",
+        "lvl": 1,
+        "i": 39,
+        "seen": 0
+    },
+    {
+        "content": "FunctionDeclaration",
+        "slug": "functiondeclaration",
+        "lvl": 2,
+        "i": 40,
+        "seen": 0
+    },
+    {
+        "content": "VariableDeclaration",
+        "slug": "variabledeclaration",
+        "lvl": 2,
+        "i": 41,
+        "seen": 0
+    },
+    {
+        "content": "VariableDeclarator",
+        "slug": "variabledeclarator",
+        "lvl": 3,
+        "i": 42,
+        "seen": 0
+    },
+    {
+        "content": "Misc",
+        "slug": "misc",
+        "lvl": 1,
+        "i": 43,
+        "seen": 0
+    },
+    {
+        "content": "Decorator",
+        "slug": "decorator",
+        "lvl": 2,
+        "i": 44,
+        "seen": 0
+    },
+    {
+        "content": "Directive",
+        "slug": "directive",
+        "lvl": 2,
+        "i": 45,
+        "seen": 0
+    },
+    {
+        "content": "DirectiveLiteral",
+        "slug": "directiveliteral",
+        "lvl": 2,
+        "i": 46,
+        "seen": 0
+    },
+    {
+        "content": "InterpreterDirective",
+        "slug": "interpreterdirective",
+        "lvl": 2,
+        "i": 47,
+        "seen": 0
+    },
+    {
+        "content": "Expressions",
+        "slug": "expressions",
+        "lvl": 1,
+        "i": 48,
+        "seen": 0
+    },
+    {
+        "content": "Super",
+        "slug": "super",
+        "lvl": 2,
+        "i": 49,
+        "seen": 0
+    },
+    {
+        "content": "Import",
+        "slug": "import",
+        "lvl": 2,
+        "i": 50,
+        "seen": 0
+    },
+    {
+        "content": "ThisExpression",
+        "slug": "thisexpression",
+        "lvl": 2,
+        "i": 51,
+        "seen": 0
+    },
+    {
+        "content": "ArrowFunctionExpression",
+        "slug": "arrowfunctionexpression",
+        "lvl": 2,
+        "i": 52,
+        "seen": 0
+    },
+    {
+        "content": "YieldExpression",
+        "slug": "yieldexpression",
+        "lvl": 2,
+        "i": 53,
+        "seen": 0
+    },
+    {
+        "content": "AwaitExpression",
+        "slug": "awaitexpression",
+        "lvl": 2,
+        "i": 54,
+        "seen": 0
+    },
+    {
+        "content": "ArrayExpression",
+        "slug": "arrayexpression",
+        "lvl": 2,
+        "i": 55,
+        "seen": 0
+    },
+    {
+        "content": "ObjectExpression",
+        "slug": "objectexpression",
+        "lvl": 2,
+        "i": 56,
+        "seen": 0
+    },
+    {
+        "content": "ObjectMember",
+        "slug": "objectmember",
+        "lvl": 3,
+        "i": 57,
+        "seen": 0
+    },
+    {
+        "content": "ObjectProperty",
+        "slug": "objectproperty",
+        "lvl": 4,
+        "i": 58,
+        "seen": 0
+    },
+    {
+        "content": "ObjectMethod",
+        "slug": "objectmethod",
+        "lvl": 4,
+        "i": 59,
+        "seen": 0
+    },
+    {
+        "content": "RecordExpression",
+        "slug": "recordexpression",
+        "lvl": 2,
+        "i": 60,
+        "seen": 0
+    },
+    {
+        "content": "TupleExpression",
+        "slug": "tupleexpression",
+        "lvl": 2,
+        "i": 61,
+        "seen": 0
+    },
+    {
+        "content": "FunctionExpression",
+        "slug": "functionexpression",
+        "lvl": 2,
+        "i": 62,
+        "seen": 0
+    },
+    {
+        "content": "Unary operations",
+        "slug": "unary-operations",
+        "lvl": 2,
+        "i": 63,
+        "seen": 0
+    },
+    {
+        "content": "UnaryExpression",
+        "slug": "unaryexpression",
+        "lvl": 3,
+        "i": 64,
+        "seen": 0
+    },
+    {
+        "content": "UnaryOperator",
+        "slug": "unaryoperator",
+        "lvl": 4,
+        "i": 65,
+        "seen": 0
+    },
+    {
+        "content": "UpdateExpression",
+        "slug": "updateexpression",
+        "lvl": 3,
+        "i": 66,
+        "seen": 0
+    },
+    {
+        "content": "UpdateOperator",
+        "slug": "updateoperator",
+        "lvl": 4,
+        "i": 67,
+        "seen": 0
+    },
+    {
+        "content": "Binary operations",
+        "slug": "binary-operations",
+        "lvl": 2,
+        "i": 68,
+        "seen": 0
+    },
+    {
+        "content": "BinaryExpression",
+        "slug": "binaryexpression",
+        "lvl": 3,
+        "i": 69,
+        "seen": 0
+    },
+    {
+        "content": "BinaryOperator",
+        "slug": "binaryoperator",
+        "lvl": 4,
+        "i": 70,
+        "seen": 0
+    },
+    {
+        "content": "AssignmentExpression",
+        "slug": "assignmentexpression",
+        "lvl": 3,
+        "i": 71,
+        "seen": 0
+    },
+    {
+        "content": "AssignmentOperator",
+        "slug": "assignmentoperator",
+        "lvl": 4,
+        "i": 72,
+        "seen": 0
+    },
+    {
+        "content": "LogicalExpression",
+        "slug": "logicalexpression",
+        "lvl": 3,
+        "i": 73,
+        "seen": 0
+    },
+    {
+        "content": "LogicalOperator",
+        "slug": "logicaloperator",
+        "lvl": 4,
+        "i": 74,
+        "seen": 0
+    },
+    {
+        "content": "SpreadElement",
+        "slug": "spreadelement",
+        "lvl": 3,
+        "i": 75,
+        "seen": 0
+    },
+    {
+        "content": "ArgumentPlaceholder",
+        "slug": "argumentplaceholder",
+        "lvl": 3,
+        "i": 76,
+        "seen": 0
+    },
+    {
+        "content": "MemberExpression",
+        "slug": "memberexpression",
+        "lvl": 3,
+        "i": 77,
+        "seen": 0
+    },
+    {
+        "content": "OptionalMemberExpression",
+        "slug": "optionalmemberexpression",
+        "lvl": 3,
+        "i": 78,
+        "seen": 0
+    },
+    {
+        "content": "BindExpression",
+        "slug": "bindexpression",
+        "lvl": 3,
+        "i": 79,
+        "seen": 0
+    },
+    {
+        "content": "Pipeline",
+        "slug": "pipeline",
+        "lvl": 3,
+        "i": 80,
+        "seen": 0
+    },
+    {
+        "content": "PipelineBody",
+        "slug": "pipelinebody",
+        "lvl": 4,
+        "i": 81,
+        "seen": 0
+    },
+    {
+        "content": "PipelineBareFunctionBody",
+        "slug": "pipelinebarefunctionbody",
+        "lvl": 4,
+        "i": 82,
+        "seen": 0
+    },
+    {
+        "content": "PipelineBareConstructorBody",
+        "slug": "pipelinebareconstructorbody",
+        "lvl": 4,
+        "i": 83,
+        "seen": 0
+    },
+    {
+        "content": "PipelineBareAwaitedFunctionBody",
+        "slug": "pipelinebareawaitedfunctionbody",
+        "lvl": 4,
+        "i": 84,
+        "seen": 0
+    },
+    {
+        "content": "PipelineTopicBody",
+        "slug": "pipelinetopicbody",
+        "lvl": 4,
+        "i": 85,
+        "seen": 0
+    },
+    {
+        "content": "ConditionalExpression",
+        "slug": "conditionalexpression",
+        "lvl": 2,
+        "i": 86,
+        "seen": 0
+    },
+    {
+        "content": "CallExpression",
+        "slug": "callexpression",
+        "lvl": 2,
+        "i": 87,
+        "seen": 0
+    },
+    {
+        "content": "OptionalCallExpression",
+        "slug": "optionalcallexpression",
+        "lvl": 2,
+        "i": 88,
+        "seen": 0
+    },
+    {
+        "content": "NewExpression",
+        "slug": "newexpression",
+        "lvl": 2,
+        "i": 89,
+        "seen": 0
+    },
+    {
+        "content": "SequenceExpression",
+        "slug": "sequenceexpression",
+        "lvl": 2,
+        "i": 90,
+        "seen": 0
+    },
+    {
+        "content": "ParenthesizedExpression",
+        "slug": "parenthesizedexpression",
+        "lvl": 2,
+        "i": 91,
+        "seen": 0
+    },
+    {
+        "content": "DoExpression",
+        "slug": "doexpression",
+        "lvl": 2,
+        "i": 92,
+        "seen": 0
+    },
+    {
+        "content": "Template Literals",
+        "slug": "template-literals",
+        "lvl": 1,
+        "i": 93,
+        "seen": 0
+    },
+    {
+        "content": "TemplateLiteral",
+        "slug": "templateliteral",
+        "lvl": 2,
+        "i": 94,
+        "seen": 0
+    },
+    {
+        "content": "TaggedTemplateExpression",
+        "slug": "taggedtemplateexpression",
+        "lvl": 2,
+        "i": 95,
+        "seen": 0
+    },
+    {
+        "content": "TemplateElement",
+        "slug": "templateelement",
+        "lvl": 2,
+        "i": 96,
+        "seen": 0
+    },
+    {
+        "content": "Patterns",
+        "slug": "patterns",
+        "lvl": 1,
+        "i": 97,
+        "seen": 0
+    },
+    {
+        "content": "ObjectPattern",
+        "slug": "objectpattern",
+        "lvl": 2,
+        "i": 98,
+        "seen": 0
+    },
+    {
+        "content": "ArrayPattern",
+        "slug": "arraypattern",
+        "lvl": 2,
+        "i": 99,
+        "seen": 0
+    },
+    {
+        "content": "RestElement",
+        "slug": "restelement",
+        "lvl": 2,
+        "i": 100,
+        "seen": 0
+    },
+    {
+        "content": "AssignmentPattern",
+        "slug": "assignmentpattern",
+        "lvl": 2,
+        "i": 101,
+        "seen": 0
+    },
+    {
+        "content": "Classes",
+        "slug": "classes",
+        "lvl": 1,
+        "i": 102,
+        "seen": 0
+    },
+    {
+        "content": "ClassBody",
+        "slug": "classbody",
+        "lvl": 2,
+        "i": 103,
+        "seen": 0
+    },
+    {
+        "content": "ClassMethod",
+        "slug": "classmethod",
+        "lvl": 2,
+        "i": 104,
+        "seen": 0
+    },
+    {
+        "content": "ClassPrivateMethod",
+        "slug": "classprivatemethod",
+        "lvl": 2,
+        "i": 105,
+        "seen": 0
+    },
+    {
+        "content": "ClassProperty",
+        "slug": "classproperty",
+        "lvl": 2,
+        "i": 106,
+        "seen": 0
+    },
+    {
+        "content": "ClassPrivateProperty",
+        "slug": "classprivateproperty",
+        "lvl": 2,
+        "i": 107,
+        "seen": 0
+    },
+    {
+        "content": "ClassDeclaration",
+        "slug": "classdeclaration",
+        "lvl": 2,
+        "i": 108,
+        "seen": 0
+    },
+    {
+        "content": "ClassExpression",
+        "slug": "classexpression",
+        "lvl": 2,
+        "i": 109,
+        "seen": 0
+    },
+    {
+        "content": "MetaProperty",
+        "slug": "metaproperty",
+        "lvl": 2,
+        "i": 110,
+        "seen": 0
+    },
+    {
+        "content": "Modules",
+        "slug": "modules",
+        "lvl": 1,
+        "i": 111,
+        "seen": 0
+    },
+    {
+        "content": "ModuleDeclaration",
+        "slug": "moduledeclaration",
+        "lvl": 2,
+        "i": 112,
+        "seen": 0
+    },
+    {
+        "content": "ModuleSpecifier",
+        "slug": "modulespecifier",
+        "lvl": 2,
+        "i": 113,
+        "seen": 0
+    },
+    {
+        "content": "Imports",
+        "slug": "imports",
+        "lvl": 2,
+        "i": 114,
+        "seen": 0
+    },
+    {
+        "content": "ImportDeclaration",
+        "slug": "importdeclaration",
+        "lvl": 3,
+        "i": 115,
+        "seen": 0
+    },
+    {
+        "content": "ImportSpecifier",
+        "slug": "importspecifier",
+        "lvl": 3,
+        "i": 116,
+        "seen": 0
+    },
+    {
+        "content": "ImportDefaultSpecifier",
+        "slug": "importdefaultspecifier",
+        "lvl": 3,
+        "i": 117,
+        "seen": 0
+    },
+    {
+        "content": "ImportNamespaceSpecifier",
+        "slug": "importnamespacespecifier",
+        "lvl": 3,
+        "i": 118,
+        "seen": 0
+    },
+    {
+        "content": "ImportAttribute",
+        "slug": "importattribute",
+        "lvl": 3,
+        "i": 119,
+        "seen": 0
+    },
+    {
+        "content": "Exports",
+        "slug": "exports",
+        "lvl": 2,
+        "i": 120,
+        "seen": 0
+    },
+    {
+        "content": "ExportNamedDeclaration",
+        "slug": "exportnameddeclaration",
+        "lvl": 3,
+        "i": 121,
+        "seen": 0
+    },
+    {
+        "content": "ExportSpecifier",
+        "slug": "exportspecifier",
+        "lvl": 3,
+        "i": 122,
+        "seen": 0
+    },
+    {
+        "content": "ExportDefaultDeclaration",
+        "slug": "exportdefaultdeclaration",
+        "lvl": 3,
+        "i": 123,
+        "seen": 0
+    },
+    {
+        "content": "ExportAllDeclaration",
+        "slug": "exportalldeclaration",
+        "lvl": 3,
+        "i": 124,
+        "seen": 0
+    }
+]
