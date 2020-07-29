@@ -1,57 +1,40 @@
-var toc = require('markdown-toc');
-var MarkdownIt = require('markdown-it'),
-  md = new MarkdownIt();
-var fs = require('fs');
-const { JSDOM } = require("jsdom");
-const { window } = new JSDOM("");
-const $ = require("jquery")(window);
+import toc from 'markdown-toc';
+import fs from 'fs';
 
 const parseToJSON = async () => {
   /* parse the markdown document into html */
   const markdown = await fs.readFileSync("spec.md", "utf-8");
-  const document = $(md.render(markdown));
 
   /* parse the markdown document into JSON */
   const content = await toc(markdown).json;
 
   let result = parseToNested(content);
 
-  // let res = {}
-  // let chunks = markdown.split('\n#')
-  // chunks.forEach((chunk) => {
-  //   let line = chunk.split('\n')[0];
-  //   res[line.replace('#', '')] = chunk;;
-  // })
+  let chunks = markdown.split('\n#');
 
-  // console.log(res);
+  chunks.forEach((chunk, index) => {
+    /* skip the table element */
+    if (index == 0) return;
+    let line = chunk.split('\n')[0];
+
+    result[line.replace(/#*/, '').trim()].chunk = chunk;
+  })
 
   // let data = JSON.stringify(result);
 
-  // fs.writeFileSync("output2.json", data);
+  // fs.writeFileSync("output.json", data);
 
-  // content.forEach(element => {
-  //     const key = element.content;
-  //     // const heading = $($(`:header:contains('${key}')`), document);
-  //     const heading = document.find($(`:header:contains('${key}')`));
-  //     console.log(heading);
-
-  // });
-
-  // console.log(document);
-
-  // const data = JSON.stringify(content);
-  // console.log(content);
 }
 
 /**
  * Return markdown-toc objects with nested structure
  * 
  * @param {Object} content Original markdown-toc objects
- * @returns {Array<Object>} 
+ * @returns {Object} Parsed objects with parents
  */
 
 const parseToNested = (content) => {
-  const result = [];
+  const result = {};
 
   const initialValue = {
     "lvl": 1,
@@ -92,7 +75,7 @@ const parseToNested = (content) => {
         }
         break;
     }
-    result.push(v);
+    result[v.content] = v;
     return v;
 
   }, initialValue);
