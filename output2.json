@@ -5,11 +5,7 @@
         "lvl": 1,
         "i": 0,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Changes",
@@ -17,11 +13,7 @@
         "lvl": 1,
         "i": 1,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "@babel/parser (Babylon) v7",
@@ -29,11 +21,10 @@
         "lvl": 3,
         "i": 2,
         "seen": 0,
-        "parents": {
-            "lvl_1": 1,
-            "lvl_2": 1,
-            "lvl_3": null
-        }
+        "parents": [
+            1,
+            1
+        ]
     },
     {
         "content": "Identifier",
@@ -41,11 +32,7 @@
         "lvl": 1,
         "i": 3,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "PrivateName",
@@ -53,11 +40,7 @@
         "lvl": 1,
         "i": 4,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Literals",
@@ -65,11 +48,7 @@
         "lvl": 1,
         "i": 5,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "RegExpLiteral",
@@ -77,11 +56,9 @@
         "lvl": 2,
         "i": 6,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "NullLiteral",
@@ -89,11 +66,9 @@
         "lvl": 2,
         "i": 7,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "StringLiteral",
@@ -101,11 +76,9 @@
         "lvl": 2,
         "i": 8,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "BooleanLiteral",
@@ -113,11 +86,9 @@
         "lvl": 2,
         "i": 9,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "NumericLiteral",
@@ -125,11 +96,9 @@
         "lvl": 2,
         "i": 10,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "BigIntLiteral",
@@ -137,11 +106,9 @@
         "lvl": 2,
         "i": 11,
         "seen": 0,
-        "parents": {
-            "lvl_1": 5,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            5
+        ]
     },
     {
         "content": "Programs",
@@ -149,11 +116,7 @@
         "lvl": 1,
         "i": 12,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Functions",
@@ -161,11 +124,7 @@
         "lvl": 1,
         "i": 13,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Statements",
@@ -173,11 +132,7 @@
         "lvl": 1,
         "i": 14,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "ExpressionStatement",
@@ -185,11 +140,9 @@
         "lvl": 2,
         "i": 15,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "BlockStatement",
@@ -197,11 +150,9 @@
         "lvl": 2,
         "i": 16,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "EmptyStatement",
@@ -209,11 +160,9 @@
         "lvl": 2,
         "i": 17,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "DebuggerStatement",
@@ -221,11 +170,9 @@
         "lvl": 2,
         "i": 18,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "WithStatement",
@@ -233,11 +180,9 @@
         "lvl": 2,
         "i": 19,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "Control flow",
@@ -245,11 +190,9 @@
         "lvl": 2,
         "i": 20,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "ReturnStatement",
@@ -257,11 +200,10 @@
         "lvl": 3,
         "i": 21,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 20,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            20
+        ]
     },
     {
         "content": "LabeledStatement",
@@ -269,11 +211,10 @@
         "lvl": 3,
         "i": 22,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 20,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            20
+        ]
     },
     {
         "content": "BreakStatement",
@@ -281,11 +222,10 @@
         "lvl": 3,
         "i": 23,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 20,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            20
+        ]
     },
     {
         "content": "ContinueStatement",
@@ -293,11 +233,10 @@
         "lvl": 3,
         "i": 24,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 20,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            20
+        ]
     },
     {
         "content": "Choice",
@@ -305,11 +244,9 @@
         "lvl": 2,
         "i": 25,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "IfStatement",
@@ -317,11 +254,10 @@
         "lvl": 3,
         "i": 26,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 25,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            25
+        ]
     },
     {
         "content": "SwitchStatement",
@@ -329,11 +265,10 @@
         "lvl": 3,
         "i": 27,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 25,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            25
+        ]
     },
     {
         "content": "SwitchCase",
@@ -341,11 +276,11 @@
         "lvl": 4,
         "i": 28,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 25,
-            "lvl_3": 27
-        }
+        "parents": [
+            14,
+            25,
+            27
+        ]
     },
     {
         "content": "Exceptions",
@@ -353,11 +288,9 @@
         "lvl": 2,
         "i": 29,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "ThrowStatement",
@@ -365,11 +298,10 @@
         "lvl": 3,
         "i": 30,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 29,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            29
+        ]
     },
     {
         "content": "TryStatement",
@@ -377,11 +309,10 @@
         "lvl": 3,
         "i": 31,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 29,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            29
+        ]
     },
     {
         "content": "CatchClause",
@@ -389,11 +320,11 @@
         "lvl": 4,
         "i": 32,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 29,
-            "lvl_3": 31
-        }
+        "parents": [
+            14,
+            29,
+            31
+        ]
     },
     {
         "content": "Loops",
@@ -401,11 +332,9 @@
         "lvl": 2,
         "i": 33,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "WhileStatement",
@@ -413,11 +342,10 @@
         "lvl": 3,
         "i": 34,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 33,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            33
+        ]
     },
     {
         "content": "DoWhileStatement",
@@ -425,11 +353,10 @@
         "lvl": 3,
         "i": 35,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 33,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            33
+        ]
     },
     {
         "content": "ForStatement",
@@ -437,11 +364,10 @@
         "lvl": 3,
         "i": 36,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 33,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            33
+        ]
     },
     {
         "content": "ForInStatement",
@@ -449,11 +375,10 @@
         "lvl": 3,
         "i": 37,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": 33,
-            "lvl_3": null
-        }
+        "parents": [
+            14,
+            33
+        ]
     },
     {
         "content": "ForOfStatement",
@@ -461,11 +386,9 @@
         "lvl": 2,
         "i": 38,
         "seen": 0,
-        "parents": {
-            "lvl_1": 14,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            14
+        ]
     },
     {
         "content": "Declarations",
@@ -473,11 +396,7 @@
         "lvl": 1,
         "i": 39,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "FunctionDeclaration",
@@ -485,11 +404,9 @@
         "lvl": 2,
         "i": 40,
         "seen": 0,
-        "parents": {
-            "lvl_1": 39,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            39
+        ]
     },
     {
         "content": "VariableDeclaration",
@@ -497,11 +414,9 @@
         "lvl": 2,
         "i": 41,
         "seen": 0,
-        "parents": {
-            "lvl_1": 39,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            39
+        ]
     },
     {
         "content": "VariableDeclarator",
@@ -509,11 +424,10 @@
         "lvl": 3,
         "i": 42,
         "seen": 0,
-        "parents": {
-            "lvl_1": 39,
-            "lvl_2": 41,
-            "lvl_3": null
-        }
+        "parents": [
+            39,
+            41
+        ]
     },
     {
         "content": "Misc",
@@ -521,11 +435,7 @@
         "lvl": 1,
         "i": 43,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Decorator",
@@ -533,11 +443,9 @@
         "lvl": 2,
         "i": 44,
         "seen": 0,
-        "parents": {
-            "lvl_1": 43,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            43
+        ]
     },
     {
         "content": "Directive",
@@ -545,11 +453,9 @@
         "lvl": 2,
         "i": 45,
         "seen": 0,
-        "parents": {
-            "lvl_1": 43,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            43
+        ]
     },
     {
         "content": "DirectiveLiteral",
@@ -557,11 +463,9 @@
         "lvl": 2,
         "i": 46,
         "seen": 0,
-        "parents": {
-            "lvl_1": 43,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            43
+        ]
     },
     {
         "content": "InterpreterDirective",
@@ -569,11 +473,9 @@
         "lvl": 2,
         "i": 47,
         "seen": 0,
-        "parents": {
-            "lvl_1": 43,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            43
+        ]
     },
     {
         "content": "Expressions",
@@ -581,11 +483,7 @@
         "lvl": 1,
         "i": 48,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "Super",
@@ -593,11 +491,9 @@
         "lvl": 2,
         "i": 49,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "Import",
@@ -605,11 +501,9 @@
         "lvl": 2,
         "i": 50,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ThisExpression",
@@ -617,11 +511,9 @@
         "lvl": 2,
         "i": 51,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ArrowFunctionExpression",
@@ -629,11 +521,9 @@
         "lvl": 2,
         "i": 52,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "YieldExpression",
@@ -641,11 +531,9 @@
         "lvl": 2,
         "i": 53,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "AwaitExpression",
@@ -653,11 +541,9 @@
         "lvl": 2,
         "i": 54,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ArrayExpression",
@@ -665,11 +551,9 @@
         "lvl": 2,
         "i": 55,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ObjectExpression",
@@ -677,11 +561,9 @@
         "lvl": 2,
         "i": 56,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ObjectMember",
@@ -689,11 +571,10 @@
         "lvl": 3,
         "i": 57,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 56,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            56
+        ]
     },
     {
         "content": "ObjectProperty",
@@ -701,11 +582,11 @@
         "lvl": 4,
         "i": 58,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 56,
-            "lvl_3": 57
-        }
+        "parents": [
+            48,
+            56,
+            57
+        ]
     },
     {
         "content": "ObjectMethod",
@@ -713,11 +594,11 @@
         "lvl": 4,
         "i": 59,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 56,
-            "lvl_3": 57
-        }
+        "parents": [
+            48,
+            56,
+            57
+        ]
     },
     {
         "content": "RecordExpression",
@@ -725,11 +606,9 @@
         "lvl": 2,
         "i": 60,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "TupleExpression",
@@ -737,11 +616,9 @@
         "lvl": 2,
         "i": 61,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "FunctionExpression",
@@ -749,11 +626,9 @@
         "lvl": 2,
         "i": 62,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "Unary operations",
@@ -761,11 +636,9 @@
         "lvl": 2,
         "i": 63,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "UnaryExpression",
@@ -773,11 +646,10 @@
         "lvl": 3,
         "i": 64,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 63,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            63
+        ]
     },
     {
         "content": "UnaryOperator",
@@ -785,11 +657,11 @@
         "lvl": 4,
         "i": 65,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 63,
-            "lvl_3": 64
-        }
+        "parents": [
+            48,
+            63,
+            64
+        ]
     },
     {
         "content": "UpdateExpression",
@@ -797,11 +669,10 @@
         "lvl": 3,
         "i": 66,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 63,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            63
+        ]
     },
     {
         "content": "UpdateOperator",
@@ -809,11 +680,11 @@
         "lvl": 4,
         "i": 67,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 63,
-            "lvl_3": 66
-        }
+        "parents": [
+            48,
+            63,
+            66
+        ]
     },
     {
         "content": "Binary operations",
@@ -821,11 +692,9 @@
         "lvl": 2,
         "i": 68,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "BinaryExpression",
@@ -833,11 +702,10 @@
         "lvl": 3,
         "i": 69,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "BinaryOperator",
@@ -845,11 +713,11 @@
         "lvl": 4,
         "i": 70,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 69
-        }
+        "parents": [
+            48,
+            68,
+            69
+        ]
     },
     {
         "content": "AssignmentExpression",
@@ -857,11 +725,10 @@
         "lvl": 3,
         "i": 71,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "AssignmentOperator",
@@ -869,11 +736,11 @@
         "lvl": 4,
         "i": 72,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 71
-        }
+        "parents": [
+            48,
+            68,
+            71
+        ]
     },
     {
         "content": "LogicalExpression",
@@ -881,11 +748,10 @@
         "lvl": 3,
         "i": 73,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "LogicalOperator",
@@ -893,11 +759,11 @@
         "lvl": 4,
         "i": 74,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 73
-        }
+        "parents": [
+            48,
+            68,
+            73
+        ]
     },
     {
         "content": "SpreadElement",
@@ -905,11 +771,10 @@
         "lvl": 3,
         "i": 75,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "ArgumentPlaceholder",
@@ -917,11 +782,10 @@
         "lvl": 3,
         "i": 76,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "MemberExpression",
@@ -929,11 +793,10 @@
         "lvl": 3,
         "i": 77,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "OptionalMemberExpression",
@@ -941,11 +804,10 @@
         "lvl": 3,
         "i": 78,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "BindExpression",
@@ -953,11 +815,10 @@
         "lvl": 3,
         "i": 79,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "Pipeline",
@@ -965,11 +826,10 @@
         "lvl": 3,
         "i": 80,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": null
-        }
+        "parents": [
+            48,
+            68
+        ]
     },
     {
         "content": "PipelineBody",
@@ -977,11 +837,11 @@
         "lvl": 4,
         "i": 81,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 80
-        }
+        "parents": [
+            48,
+            68,
+            80
+        ]
     },
     {
         "content": "PipelineBareFunctionBody",
@@ -989,11 +849,11 @@
         "lvl": 4,
         "i": 82,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 80
-        }
+        "parents": [
+            48,
+            68,
+            80
+        ]
     },
     {
         "content": "PipelineBareConstructorBody",
@@ -1001,11 +861,11 @@
         "lvl": 4,
         "i": 83,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 80
-        }
+        "parents": [
+            48,
+            68,
+            80
+        ]
     },
     {
         "content": "PipelineBareAwaitedFunctionBody",
@@ -1013,11 +873,11 @@
         "lvl": 4,
         "i": 84,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 80
-        }
+        "parents": [
+            48,
+            68,
+            80
+        ]
     },
     {
         "content": "PipelineTopicBody",
@@ -1025,11 +885,11 @@
         "lvl": 4,
         "i": 85,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": 68,
-            "lvl_3": 80
-        }
+        "parents": [
+            48,
+            68,
+            80
+        ]
     },
     {
         "content": "ConditionalExpression",
@@ -1037,11 +897,9 @@
         "lvl": 2,
         "i": 86,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "CallExpression",
@@ -1049,11 +907,9 @@
         "lvl": 2,
         "i": 87,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "OptionalCallExpression",
@@ -1061,11 +917,9 @@
         "lvl": 2,
         "i": 88,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "NewExpression",
@@ -1073,11 +927,9 @@
         "lvl": 2,
         "i": 89,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "SequenceExpression",
@@ -1085,11 +937,9 @@
         "lvl": 2,
         "i": 90,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "ParenthesizedExpression",
@@ -1097,11 +947,9 @@
         "lvl": 2,
         "i": 91,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "DoExpression",
@@ -1109,11 +957,9 @@
         "lvl": 2,
         "i": 92,
         "seen": 0,
-        "parents": {
-            "lvl_1": 48,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            48
+        ]
     },
     {
         "content": "Template Literals",
@@ -1121,11 +967,7 @@
         "lvl": 1,
         "i": 93,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "TemplateLiteral",
@@ -1133,11 +975,9 @@
         "lvl": 2,
         "i": 94,
         "seen": 0,
-        "parents": {
-            "lvl_1": 93,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            93
+        ]
     },
     {
         "content": "TaggedTemplateExpression",
@@ -1145,11 +985,9 @@
         "lvl": 2,
         "i": 95,
         "seen": 0,
-        "parents": {
-            "lvl_1": 93,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            93
+        ]
     },
     {
         "content": "TemplateElement",
@@ -1157,11 +995,9 @@
         "lvl": 2,
         "i": 96,
         "seen": 0,
-        "parents": {
-            "lvl_1": 93,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            93
+        ]
     },
     {
         "content": "Patterns",
@@ -1169,11 +1005,7 @@
         "lvl": 1,
         "i": 97,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "ObjectPattern",
@@ -1181,11 +1013,9 @@
         "lvl": 2,
         "i": 98,
         "seen": 0,
-        "parents": {
-            "lvl_1": 97,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            97
+        ]
     },
     {
         "content": "ArrayPattern",
@@ -1193,11 +1023,9 @@
         "lvl": 2,
         "i": 99,
         "seen": 0,
-        "parents": {
-            "lvl_1": 97,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            97
+        ]
     },
     {
         "content": "RestElement",
@@ -1205,11 +1033,9 @@
         "lvl": 2,
         "i": 100,
         "seen": 0,
-        "parents": {
-            "lvl_1": 97,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            97
+        ]
     },
     {
         "content": "AssignmentPattern",
@@ -1217,11 +1043,9 @@
         "lvl": 2,
         "i": 101,
         "seen": 0,
-        "parents": {
-            "lvl_1": 97,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            97
+        ]
     },
     {
         "content": "Classes",
@@ -1229,11 +1053,7 @@
         "lvl": 1,
         "i": 102,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "ClassBody",
@@ -1241,11 +1061,9 @@
         "lvl": 2,
         "i": 103,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassMethod",
@@ -1253,11 +1071,9 @@
         "lvl": 2,
         "i": 104,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassPrivateMethod",
@@ -1265,11 +1081,9 @@
         "lvl": 2,
         "i": 105,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassProperty",
@@ -1277,11 +1091,9 @@
         "lvl": 2,
         "i": 106,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassPrivateProperty",
@@ -1289,11 +1101,9 @@
         "lvl": 2,
         "i": 107,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassDeclaration",
@@ -1301,11 +1111,9 @@
         "lvl": 2,
         "i": 108,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "ClassExpression",
@@ -1313,11 +1121,9 @@
         "lvl": 2,
         "i": 109,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "MetaProperty",
@@ -1325,11 +1131,9 @@
         "lvl": 2,
         "i": 110,
         "seen": 0,
-        "parents": {
-            "lvl_1": 102,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            102
+        ]
     },
     {
         "content": "Modules",
@@ -1337,11 +1141,7 @@
         "lvl": 1,
         "i": 111,
         "seen": 0,
-        "parents": {
-            "lvl_1": null,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": []
     },
     {
         "content": "ModuleDeclaration",
@@ -1349,11 +1149,9 @@
         "lvl": 2,
         "i": 112,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            111
+        ]
     },
     {
         "content": "ModuleSpecifier",
@@ -1361,11 +1159,9 @@
         "lvl": 2,
         "i": 113,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            111
+        ]
     },
     {
         "content": "Imports",
@@ -1373,11 +1169,9 @@
         "lvl": 2,
         "i": 114,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            111
+        ]
     },
     {
         "content": "ImportDeclaration",
@@ -1385,11 +1179,10 @@
         "lvl": 3,
         "i": 115,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 114,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            114
+        ]
     },
     {
         "content": "ImportSpecifier",
@@ -1397,11 +1190,10 @@
         "lvl": 3,
         "i": 116,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 114,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            114
+        ]
     },
     {
         "content": "ImportDefaultSpecifier",
@@ -1409,11 +1201,10 @@
         "lvl": 3,
         "i": 117,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 114,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            114
+        ]
     },
     {
         "content": "ImportNamespaceSpecifier",
@@ -1421,11 +1212,10 @@
         "lvl": 3,
         "i": 118,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 114,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            114
+        ]
     },
     {
         "content": "ImportAttribute",
@@ -1433,11 +1223,10 @@
         "lvl": 3,
         "i": 119,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 114,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            114
+        ]
     },
     {
         "content": "Exports",
@@ -1445,11 +1234,9 @@
         "lvl": 2,
         "i": 120,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": null,
-            "lvl_3": null
-        }
+        "parents": [
+            111
+        ]
     },
     {
         "content": "ExportNamedDeclaration",
@@ -1457,11 +1244,10 @@
         "lvl": 3,
         "i": 121,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 120,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            120
+        ]
     },
     {
         "content": "ExportSpecifier",
@@ -1469,11 +1255,10 @@
         "lvl": 3,
         "i": 122,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 120,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            120
+        ]
     },
     {
         "content": "ExportDefaultDeclaration",
@@ -1481,11 +1266,10 @@
         "lvl": 3,
         "i": 123,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 120,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            120
+        ]
     },
     {
         "content": "ExportAllDeclaration",
@@ -1493,10 +1277,9 @@
         "lvl": 3,
         "i": 124,
         "seen": 0,
-        "parents": {
-            "lvl_1": 111,
-            "lvl_2": 120,
-            "lvl_3": null
-        }
+        "parents": [
+            111,
+            120
+        ]
     }
 ]

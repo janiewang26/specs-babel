@@ -8,90 +8,26 @@ const $ = require("jquery")(window);
 
 const parseToJSON = async () => {
   /* parse the markdown document into html */
-  const spec = await fs.readFileSync("spec.md", "utf-8");
-  const document = $(md.render(spec));
+  const markdown = await fs.readFileSync("spec.md", "utf-8");
+  const document = $(md.render(markdown));
 
   /* parse the markdown document into JSON */
-  const content = await toc(spec).json;
+  const content = await toc(markdown).json;
 
-  const result = [];
+  let result = parseToNested(content);
 
-  const initialValue = {
-    "lvl": 1,
-    "parents": {
-      lvl_1: null,
-      lvl_2: null,
-      lvl_3: null,
-    }
-  };
+  // let res = {}
+  // let chunks = markdown.split('\n#')
+  // chunks.forEach((chunk) => {
+  //   let line = chunk.split('\n')[0];
+  //   res[line.replace('#', '')] = chunk;;
+  // })
 
-  content.reduce((acc, v) => {
-    switch (v.lvl) {
-      case 1:
-        v.parents = {
-          lvl_1: null,
-          lvl_2: null,
-          lvl_3: null,
-        }
-        break;
-      case 2:
-        if (acc.lvl < v.lvl) {
-          v.parents = {
-            lvl_1: acc.i,
-            lvl_2: null,
-            lvl_3: null,
-          }
-        } else {
-          v.parents = {
-            lvl_1: acc.parents.lvl_1,
-            lvl_2: null,
-            lvl_3: null,
-          }
-        }
-        break;
-      case 3:
-        if (acc.lvl == 1) {
-          /* babelparser-babylon-v7 */
-          v.parents = {
-            lvl_1: acc.i,
-            lvl_2: acc.i,
-            lvl_3: null,
-          }
-        } else if (acc.lvl < v.lvl) {
-          v.parents = {
-            lvl_1: acc.parents.lvl_1,
-            lvl_2: acc.i,
-            lvl_3: null,
-          }
-        } else {
-          v.parents = {
-            lvl_1: acc.parents.lvl_1,
-            lvl_2: acc.parents.lvl_2,
-            lvl_3: null,
-          }
-        }
-        break;
-      case 4:
-        if (acc.lvl < v.lvl) {
-          v.parents = {
-            lvl_1: acc.parents.lvl_1,
-            lvl_2: acc.parents.lvl_2,
-            lvl_3: acc.i,
-          }
-        } else {
-          v.parents = acc.parents;
-        }
-        break;
-    }
-    result.push(v);
-    return v;
+  // console.log(res);
 
-  }, initialValue);
+  // let data = JSON.stringify(result);
 
-  let data = JSON.stringify(result);
-
-  fs.writeFileSync("output2.json", data);
-
+  // fs.writeFileSync("output2.json", data);
 
   // content.forEach(element => {
   //     const key = element.content;
@@ -107,12 +43,60 @@ const parseToJSON = async () => {
   // console.log(content);
 }
 
-// var result = toc('# AAA\n## BBB\n### CCC\nfoo');
-// var str = '';
+/**
+ * Return markdown-toc objects with nested structure
+ * 
+ * @param {Object} content Original markdown-toc objects
+ * @returns {Array<Object>} 
+ */
 
-// result.json.forEach(function(heading) {
-//   str += toc.linkify(heading.content);
-//   console.log(str);
-// });
+const parseToNested = (content) => {
+  const result = [];
+
+  const initialValue = {
+    "lvl": 1,
+    "parents": [],
+  };
+
+  content.reduce((acc, v) => {
+    switch (v.lvl) {
+      case 1:
+        v.parents = [];
+        break;
+      case 2:
+        if (acc.lvl < v.lvl) {
+          v.parents = [acc.i];
+        }
+        else {
+          v.parents = [acc.parents[0]]
+        }
+        break;
+      case 3:
+        if (acc.lvl == 1) {
+          /* babelparser-babylon-v7 element */
+          v.parents = [acc.i, acc.i];
+        }
+        else if (acc.lvl < v.lvl) {
+          v.parents = [acc.parents[0], acc.i];
+        }
+        else {
+          v.parents = [acc.parents[0], acc.parents[1]];
+        }
+        break;
+      case 4:
+        if (acc.lvl < v.lvl) {
+          v.parents = [acc.parents[0], acc.parents[1], acc.i];
+        }
+        else {
+          v.parents = acc.parents;
+        }
+        break;
+    }
+    result.push(v);
+    return v;
+
+  }, initialValue);
+  return result;
+}
 
 parseToJSON();
